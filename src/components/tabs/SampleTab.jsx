@@ -131,13 +131,14 @@ const SampleTab = memo(function SampleTab() {
             <div>
               <h4 className="font-bold text-emerald-300 mb-2">【使用的工具】</h4>
               <ul className="list-disc list-inside space-y-1 ml-2">
-                <li><strong>NotebookLM：</strong>上傳 ch02、ch03、ch04 講義，確認期貨避險原理與契約規格</li>
-                <li><strong>Gemini：</strong>搜尋台積電期貨最新的保證金與交易量資訊</li>
+                <li><strong>NotebookLM：</strong>上傳 ch02、ch03、ch04 講義，並使用「Discover 探索來源」搜尋網路資料</li>
+                <li><strong>NotebookLM Deep Research：</strong>深度研究台積電期貨市場的最新數據</li>
+                <li><strong>Gemini：</strong>潤飾文章與確認計算正確性</li>
               </ul>
             </div>
             <div>
               <h4 className="font-bold text-emerald-300 mb-2">【怎麼使用】</h4>
-              <p>我先在 NotebookLM 提問「什麼是空頭避險」，確認課本定義。接著用 Gemini 搜尋「台積電期貨 契約規格 2024」，取得最新的保證金資料。最後請 AI 幫我檢查避險計算是否正確。</p>
+              <p>我先在 NotebookLM 上傳講義，提問「什麼是空頭避險」確認課本定義。接著使用「Discover」功能搜尋「台積電期貨 2024」，AI 自動找到相關網路資源。最後用 Deep Research 深度研究，3分鐘後 AI 產出一份完整的台積電期貨市場報告，包含最新保證金與交易量數據。</p>
             </div>
             <div>
               <h4 className="font-bold text-emerald-300 mb-2">【發現 AI 的錯誤】⭐ 加分重點</h4>
