@@ -3,3 +3,7 @@ dist
 .env
 .DS_Store
 *.local
+
+# Keep local environment variants out of source control.
+.env.*
+!.env.example
